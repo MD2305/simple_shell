@@ -20,11 +20,11 @@ extern char **environ;
  * @form: The specifier format
  * @f: The function associated
  */
-typedef struct print_fn
+typedef struct print_fun
 {
 	char *form;
 	int (*f)(va_list args);
-} print_fn;
+} print_fun;
 /**
  * struct format_handl - handle format specifiers
  *
